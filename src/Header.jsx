@@ -1,7 +1,9 @@
 // @ts-check
 
 export const Header = () => {
-  return <></>
-}
-
-export default Header
+  return(
+    <header className="header-name">
+      Introduction of React
+    </header>
+  );
+};

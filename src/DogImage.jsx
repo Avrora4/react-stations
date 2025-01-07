@@ -1,7 +1,10 @@
 // @ts-check
 
-export const DogImage = () => {
-  return <></>
-}
+import { defaults } from 'autoprefixer';
+import React from 'react';
 
-export default DogImage
+export const DogImage = ({imageUrl}) => {
+  return(
+    <img src={imageUrl} alt="Dog's image" />
+  );
+};
